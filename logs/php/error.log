@@ -1,0 +1,18 @@
+[06-May-2025 12:21:06 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[06-May-2025 12:21:59 UTC] PHP Warning:  Undefined variable $name in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[06-May-2025 12:21:59 UTC] PHP Warning:  Undefined variable $colour in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[06-May-2025 12:21:59 UTC] PHP Warning:  Undefined variable $name in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[06-May-2025 12:21:59 UTC] PHP Warning:  Undefined variable $colour in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[06-May-2025 12:24:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 1 passed in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6 and exactly 2 expected in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:2
+Stack trace:
+#0 /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(6): greet('Reuben')
+#1 /Users/reuben/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/reuben/L...')
+#2 /Users/reuben/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/reuben/L...')
+#3 /Users/reuben/Local Sites/fictional-university/app/public/index.php(17): require('/Users/reuben/L...')
+#4 {main}
+  thrown in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[06-May-2025 15:13:59 UTC] PHP Warning:  Array to string conversion in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[07-May-2025 06:42:36 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 14
+[07-May-2025 06:55:03 UTC] PHP Parse error:  Unmatched '}' in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[07-May-2025 06:55:24 UTC] PHP Parse error:  Unmatched '}' in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[07-May-2025 06:56:10 UTC] PHP Parse error:  syntax error, unexpected token "<" in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
