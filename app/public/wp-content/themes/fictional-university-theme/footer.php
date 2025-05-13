@@ -1,1 +1,1 @@
-<h1>Greetings from footer.php</h1>
+<h3>Greetings from footer.php</h3>
