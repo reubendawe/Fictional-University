@@ -3,3 +3,7 @@ Theme Name: Fictional University
 Author: Reuben
 Version: 1.0
 */
+
+* {
+    color: orange;
+}
