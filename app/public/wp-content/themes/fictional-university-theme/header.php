@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php wp_head(); ?> <!-- Loads in CSS -->
+    <?php wp_head(); ?> <!-- Loads in (Wordpress in control) CSS -->
 </head>
 <body>
-    
+
     <header class="site-header">
       <div class="container">
         <h1 class="school-logo-text float-left">
