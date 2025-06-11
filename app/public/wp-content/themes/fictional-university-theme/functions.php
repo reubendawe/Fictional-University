@@ -6,6 +6,7 @@ function university_files() {
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css')); // Pulling in CSS from the 'build' folder
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/index.css')); // Pulling in CSS from the 'build' folder
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); // Pulling in fontawesome from the 'build' folder
+    wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i'); // Pulling in Google Fonts  from the 'build' folder
 }
 
 // Calling in the function, the second argument is the name of the function that I want WP
