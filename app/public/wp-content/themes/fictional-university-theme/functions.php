@@ -3,7 +3,8 @@
 // Created/defined a brand new function that I chose the name of, within that function
 // I called a WordPress function and pointed towards the CSS file that I wanted to load.
 function university_files() {
-    wp_enqueue_style('university_main_styles', get_stylesheet_uri());
+    wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css')); // Pulling in CSS from the 'build' folder
+    wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/index.css')); // Pulling in CSS from the 'build' folder
 }
 
 // Calling in the function, the second argument is the name of the function that I want WP
