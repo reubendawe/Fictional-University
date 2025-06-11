@@ -3,6 +3,7 @@
 // Created/defined a brand new function that I chose the name of, within that function
 // I called a WordPress function and pointed towards the CSS file that I wanted to load.
 function university_files() {
+    wp_enqueue_script('main-university-js', get_theme_file_uri('/build/index.js'), array('jquery'), '1.0', true); // Pulls in JavasScript and Jquery file from 'build' folder | '1.0' is the version I'm using
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/style-index.css')); // Pulling in CSS from the 'build' folder
     wp_enqueue_style('university_main_styles', get_theme_file_uri('/build/index.css')); // Pulling in CSS from the 'build' folder
     wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); // Pulling in fontawesome from the 'build' folder
