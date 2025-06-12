@@ -16,4 +16,8 @@ function university_files() {
 // go in the header, the wp head area, I want to tack onto that moment and run my custom function
 add_action('wp_enqueue_scripts', 'university_files');
 
-?>
+function university_features() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'university_features');
